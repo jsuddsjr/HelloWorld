@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "Pylint",
+        "venv"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true
+}
