@@ -5,6 +5,6 @@ from hello import Hello
 
 class TestClass:
     def test_hello(self):
-        x = Hello("hello")
-        x = x.greet("world")
-        assert x == "hello world"
+        x = Hello()
+        x = x.greet("mom")
+        assert x == "Hello mom!"

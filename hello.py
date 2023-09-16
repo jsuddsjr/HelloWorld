@@ -1,11 +1,20 @@
+import gettext
+
+
+def _(str: str):
+    return str
+
+
 class Hello:
-    def __init__(self, hello: str):
-        self.hello = hello
+    def __init__(self):
+        self.hello = _("Hello {who}!")
 
     def greet(self, who: str) -> str:
-        return ' '.join([self.hello, who])
+        return self.hello.format(who=who)
 
-h1 = Hello('👋')
-print(h1.greet('🌏'))
 
-print("\n\nThat's 'hello world' in emoji-speak.")
+# Invoke, if run directly.
+if __name__ == "__main__":
+    h1 = Hello()
+    msg = h1.greet(_("world"))
+    print(msg)
