@@ -1,4 +1,4 @@
-# Overview
+# Hello.py Overview
 
 I'm just setting up a new VS Code environment for Python and getting all the settings right.
 This project includes both unit tests and localization features for Python. The program currently
@@ -19,8 +19,6 @@ python src/hello.py
 
 Hallo Welt!
 ```
-
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
