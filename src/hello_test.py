@@ -7,7 +7,7 @@ langEn = gettext.translation(domain, locale, languages=["en"])
 langFr = gettext.translation(domain, locale, languages=["fr"])
 langDe = gettext.translation(domain, locale, languages=["de"])
 
-class TestClass:
+class TestHello:
     def test_hello_mom(self):
         langEn.install()
         test = Hello()
