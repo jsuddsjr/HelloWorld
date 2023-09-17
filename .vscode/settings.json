@@ -4,7 +4,14 @@
         "editor.formatOnSave": true
     },
     "cSpell.words": [
+        "maman",
+        "msgid",
+        "msgstr",
+        "Mutti",
+        "nplurals",
+        "Poedit",
         "Pylint",
+        "Salut",
         "venv"
     ],
     "python.languageServer": "Pylance",

@@ -1,8 +1,8 @@
 import gettext
 
-
-def _(str: str):
-    return str
+gettext.bindtextdomain("hello", "./locales")
+gettext.textdomain("hello")
+_ = gettext.gettext
 
 
 class Hello:
