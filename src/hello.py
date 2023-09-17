@@ -1,9 +1,11 @@
 import gettext
-import os
+from os import path
 
 domain = gettext.textdomain("hello")
-locale = gettext.bindtextdomain(domain, os.path.realpath("./locale"))
-gettext.install(domain, locale)
+localedir = path.join(path.dirname(__file__), "../locale")
+locale = gettext.bindtextdomain(domain, localedir)
+gettext.install(domain, locale)  # This defines '_' built-in
+
 
 class Hello:
     def __init__(self):

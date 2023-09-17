@@ -1,5 +1,2 @@
 [tool.pyright]
 venvPath = ".venv"
-executionEnvironments = [
-    { root = "src", }
-]
