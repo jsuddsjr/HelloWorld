@@ -1,11 +1,9 @@
 import gettext
 import os
 
-
-gettext.bindtextdomain("hello", os.path.realpath("./locale"))
-gettext.textdomain("hello")
-_ = gettext.gettext
-
+domain = gettext.textdomain("hello")
+locale = gettext.bindtextdomain(domain, os.path.realpath("./locale"))
+gettext.install(domain, locale)
 
 class Hello:
     def __init__(self):
