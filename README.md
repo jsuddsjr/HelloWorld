@@ -42,3 +42,5 @@ pip install -r requirements.txt
 
 * [pytest Documentation](https://docs.pytest.org/en/7.1.x/index.html) for examples
   of unit tests written for `pytest`.
+
+* [Pytest With Eric](https://pytest-with-eric.com/pytest-best-practices/pytest-logging/)

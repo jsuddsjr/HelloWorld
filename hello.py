@@ -1,6 +1,8 @@
 import gettext
+import os
 
-gettext.bindtextdomain("hello", "./locales")
+
+gettext.bindtextdomain("hello", os.path.realpath("./locale"))
 gettext.textdomain("hello")
 _ = gettext.gettext
 

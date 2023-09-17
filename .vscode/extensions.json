@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "kaih2o.python-resource-monitor",
         "ms-python.black-formatter",
         "ms-python.mypy-type-checker",
         "ms-python.pylint",
